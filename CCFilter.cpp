@@ -46,7 +46,6 @@ void CCFilter::initProgram()
 
 	if(!m_program)
 	{
-		CCLOG("initProgram id:%d",program->getProgram());
 		m_program = program;
 		m_program->retain();
 	}
