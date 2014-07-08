@@ -2,9 +2,9 @@ cocos2dx-2.x-filters
 ====================
 
 使用范例
-CCGodRayFilter* filter = CCGodRayFilter::create();
-CCSpriteWidthFilter* sprite = CCSpriteWidthFilter::create("HelloWorld.png");
-sprite->setFilter(filter);
+<li>CCGodRayFilter* filter = CCGodRayFilter::create();</li>
+<li>CCSpriteWidthFilter* sprite = CCSpriteWidthFilter::create("HelloWorld.png");</li>
+<li>sprite->setFilter(filter);</li>
 
 god ray 预览图:
 
