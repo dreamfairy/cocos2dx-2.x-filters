@@ -50,6 +50,7 @@ public:
 	virtual void clearFilter();
 
 protected:
+	virtual void updateDefaultShader();
 	virtual void drawFilter();
 	virtual bool updateFilters();
 
